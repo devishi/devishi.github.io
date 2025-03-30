@@ -1,6 +1,6 @@
 # [Devishi Kesar](https://devishi.github.io/)
 
-![Screenshot](https://devishi.github.io/examples/profile-photo.jpg)
+![Screenshot](examples/profile-photo.jpg)
 
 ## Contents
 - [About Me](#about)
