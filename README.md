@@ -5,7 +5,7 @@
 ## Contents
 - [About Me](#about)
 - [Research](#research)
-- [CV](https://jekyllrb.com/) 
+- [CV](https://devishi.github.io/assets/resume/Resume.pdf) 
 - [Contact](#contact)
 
 ## About Me
