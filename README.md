@@ -1,37 +1,72 @@
-# [Devishi Kesar](https://devishi.github.io/)
+# Personal Portfolio ⚡️ 
+> A clean, beautiful, responsive portfolio template for Software Developers!
 
-![Screenshot](/uploads/profile-photo.jpg)
+> https://varadbhogayata.github.io
 
-## Contents
-- [About Me](#about)
-- [Research](#research)
-- [CV](https://jekyllrb.com/) 
-- [Contact](#contact)
+![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
+![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/varadbhogayata.github.io/commits/master)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://varadbhogayata.github.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/varadbhogayata/)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-## About Me
+### Website Preview
+<p align="center"> 
+  <kbd>
+    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
+  </a>
+  </kbd>
+</p>
 
-**I am a second-year graduate student in the division of Pediatric Glioma Research, working in the area of bioinformatics supervised by Dr. David T.W. Jones and Dr. RJ Autry. Before joining as a graduate student, I worked a computational associate at the broad institute in Sellers lab. I did my Masters in Bioinformatics at Georgia Institute of technology was an undergraduate at Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi) where I earned a major in Computer science and engineering and a minor in Computational biology. 
+:star: Star me on GitHub — it helps!
 
-Outside of work, I enjoy reading, exploring new cities, listening to music, and playing basketball.**
+## Features 📋
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Typing animation using `Typed.js`\
+⚡️ Easy to modify
 
-## Research
+## Installation & Deployment 📦
+- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
+- Add or remove images from `varadbhogayata.github.io/assets/img/` directory as per your requirement.
+- I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to deploy the website the EASIEST WAY.
+- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
+- Push the generated code to the `master` branch of this repository.
+- <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
 
-- Available as a **theme gem** and **GitHub Pages** theme
-- Clear and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including **IE and Edge**
-- Built in **Service Worker** so it can work offline and on slow connections
-- **Configurable colours** and typography in a single settings file
-- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
-- Solid **typographic framework** from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- **Contact form** built in using [Formspree](https://formspree.io/) or [Netlify Forms](https://www.netlify.com/features/#forms)
-- Designed with **[Siteleaf](http://www.siteleaf.com/)** in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+## Sections 📚
+✔️ About me\
+✔️ Experience\
+✔️ Projects \
+✔️ Skills \
+✔️ Education\
+✔️ Contact Info\
+✔️ Resume
 
-## Contact
+To view a live example, **[click here](https://varadbhogayata.github.io/)**
 
-The best way to reach me via email is devishi[dot]kesar[at]kitz-heidelberg.de
+## Tools Used 🛠️
+* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
+* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
+* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
+
+## Contributing 💡
+#### Step 1
+
+- **Option 1**
+    - 🍴 Fork this repo!
+
+- **Option 2**
+    - 👯 Clone this repo to your local machine.
+
+
+#### Step 2
+
+- **Build your code** 🔨🔨🔨
+
+#### Step 3
+
+- 🔃 Create a new pull request.
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
