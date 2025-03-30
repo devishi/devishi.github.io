@@ -1,8 +1,6 @@
 # [Devishi Kesar](https://devishi.github.io/)
 
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
-
-[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
+![Screenshot](/uploads/profile-photo.jpg)
 
 ## Contents
 - [About Me](#about)
@@ -36,6 +34,4 @@ Outside of work, I enjoy reading, exploring new cities, listening to music, and 
 
 ## Contact
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
-
-- [billmei.net](https://billmei.net/)
+The best way to reach me via email is devishi[dot]kesar[at]kitz-heidelberg.de
