@@ -1,18 +1,10 @@
 - id: illuminerf
-  title: "IllumiNeRF 3D Relighting without Inverse Rendering"
-  venue: NeurIPS, 2024
-  description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
-  project_page: https://illuminerf.github.io
-  arxiv: 2406.06527
-  image: illuminerf_before.jpg
-  image_mouseover: illuminerf_after.mp4
-  authors:
-    - xiaomingzhao
-    - pratuls
-    - dorverbin
-    - keunhong
-    - rmbrualla
-    - phenzler
+  title: "Requirement for Cyclin D1 Underlies Cell Autonomous HIF2-Dependence in Kidney Cancer"
+  venue: Cencer Discovery, 2025
+  description: "Cyclin D1 is the key target of HIF2 driving the cell-autonomous proliferation of VHL-mutant kidney cancers and that cyclin D1 has targets beyond pRB in this setting."
+  project_page: https://aacrjournals.org/cancerdiscovery/article/doi/10.1158/2159-8290.CD-24-1378/762495/Requirement-for-Cyclin-D1-Underlies-Cell
+  image: rcc.jpg
+  image_mouseover: rcc.jpg
 - id: reconfusion
   title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
   venue: CVPR, 2024
@@ -48,8 +40,6 @@
     - bmild
     - barron
     - rmbrualla
-  awards:
-    - "Journal Paper"
 
 - id: hypernerf
   title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
