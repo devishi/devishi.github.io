@@ -1,6 +1,6 @@
 - id: illuminerf
   title: "Requirement for Cyclin D1 Underlies Cell Autonomous HIF2-Dependence in Kidney Cancer"
-  venue: Cencer Discovery, 2025
+  venue: Cancer Discovery, 2025
   description: "Cyclin D1 is the key target of HIF2 driving the cell-autonomous proliferation of VHL-mutant kidney cancers and that cyclin D1 has targets beyond pRB in this setting."
   project_page: https://aacrjournals.org/cancerdiscovery/article/doi/10.1158/2159-8290.CD-24-1378/762495/Requirement-for-Cyclin-D1-Underlies-Cell
   pdf: https://watermark.silverchair.com/cd-24-1378.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA48wggOLBgkqhkiG9w0BBwagggN8MIIDeAIBADCCA3EGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMGxxCYmriZDjlETuQAgEQgIIDQiS0c1VLV-5OGTkMkQqux5IPsIpVbKMsSp5Dxnp5jYMv9svKUHUn5TxsVX2mrOipwRXLcaLi9tZa4SpSeKg3imp1b6xw6w-xEhT0vI3WQ6xM4THc8AptOYHJDh7KteBNYC22nQYlgd42VCXZ7SM-CD9aVtBZVjMlxaQYYzu0LSmd0_X7UetEIDQxERwUZha0WflMHVDEwxoGFwvbYxPcPFQn1buh76k5aKlBsjJdym-SUrs_aKp5QcXq-SPxkJREoCJaBRT22Wx-AVmBy_QyrEBVO76Q3s-I_ytpC3sHWTWWjF1kkHUFXIErJk2y5-JlOgHt7y1rcUBUd6BescTuEutl4jv4pUGTnwX-vuupyKr55tEqoJuREUvxlYH_r5El9AfCMJem3svpz7JuQDZHeXX9-wz9mmi5QGQx9_NgpoQc2Pe2o9w_xN3Y7rR_SuMulAX05RU2lUEq1zd_WIG4d3mVJhzyPTLZcNJRmz9e4vt0WAtj3YXxSkOCcA2S9wMzdW-5DB46NWE7o3QPg5wuMHky4Hy_g-kO1cdovSxi0b1cTZztzGVFucFX3BknEMGGx469bnch2Oqjy0YFJsdu_yGOYQLbf8BFxDe7blzeDvQllIYV5QFzgiG4ksIQNGBInPJ6LFofahR162hNul87Js9Da-NCzdqMU0BTX0vmmO-b1PekVNKgYYMKYmN3ZlBpSVdMotB_xE95zlk_z0R2cUIa2jjKJqndYvZuQoACTa725OSTq4UbVRpzWEEzb749I602kSL6-9TK8R8xV3zD-SOjw0PFTv_jqmN7jmmqIjPs27JhQD3Qz4Y_6fs9MVeyG4Ra-61iapapOIKTTUj89DpxODKYsMadUROFJtfxvqZoUct9W1-yojai6t15J0A7p0d9bv2LVzvdeINn7ZDnZ7hoMtq8_q94qazKznoZzUioMe8mRgb3AxCheKnmh_h8KY_DsuhGsUijSCM4LmOAJwcYeaKIJzTsf4eBbUGG1i7in4Q_5KK3AMz-ys7FeX3N_IUv89ekUKAe5RqhrV2MoMnr4857wg6KxN_ohaU3zfcQPoPvCmAPiMhbT13YOKn9jI7_NfZQ2ZnQtige2yDg2WguXQ
@@ -8,121 +8,38 @@
   image: rcc.png
   image_mouseover: rcc.png
 - id: reconfusion
-  title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
-  venue: CVPR, 2024
-  description: "Using an multi-view image conditioned diffusion model to regularize a NeRF enabled few-view reconstruction."
-  project_page: https://reconfusion.github.io
-  arxiv: 2312.02981
-  image: reconfusion_before.png
-  image_mouseover: reconfusion_after.mp4
-  authors:
-    - rundiwu
-    - bmild
-    - phenzler
-    - keunhong
-    - ruiqigao
-    - danielwatson
-    - pratuls
-    - dorverbin
-    - barron
-    - pooleb
-    - holynski
+  title: "Identification of potent biparatopic antibodies targeting FGFR2 fusion driven cholangiocarcinoma"
+  venue: The Journal of Clinical Investigation, 2025
+  description: "Biparatopic antibodies may serve as an innovative treatment option for patients with FGFR2-altered cholangiocarcinoma."
+  project_page: https://www.jci.org/articles/view/182417
+  pdf: https://www.jci.org/articles/view/182417/pdf
+  image: jci.png
+  image_mouseover: jci.png
 - id: hypernerf
-  title: "CamP: Camera Preconditioning for Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2023
-  description: "Preconditioning camera optimization during NeRF training significantly improves their ability to jointly recover the scene and camera parameters."
-  project_page: "https://camp-nerf.github.io"
-  github: jonbarron/camp_zipnerf
-  arxiv: 2308.10902
-  image: camp_before.jpg
-  image_mouseover: camp_after.mp4
-  authors:
-    - keunhong
-    - phenzler
-    - bmild
-    - barron
-    - rmbrualla
+  title: "Systematic profiling of conditional pathway activation identifies context-dependent synthetic lethalities"
+  venue: Nature Genetics, 2023
+  description: "Study reveals a new class of conditional gene-activation dependencies in cancer"
+  project_page: "https://www.nature.com/articles/s41588-023-01515-7"
+  pdf: https://www.nature.com/articles/s41588-023-01515-7.pdf
+  github: sellerslab/SystematicPathwayActivationInCancer
+  image: lchang.png
+  image_mouseover: lchang.png
 
 - id: hypernerf
-  title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2021
-  description: "By applying ideas from level set methods, we can represent topologically changing scenes with NeRFs."
-  project_page: "https://hypernerf.github.io"
-  github: google/hypernerf
-  arxiv: 2106.13228
-  image: hypernerf_before.jpg
-  image_mouseover: hypernerf_after.mp4
-  authors:
-    - keunhong
-    - utsinh
-    - hedman
-    - barron
-    - sofien
-    - dgo
-    - rmbrualla
-    - smseitz
+  title: "Comparative optimization of combinatorial CRISPR screens"
+  venue: Nature Communications, 2022
+  description: "Combination of alternative tracrRNA sequences from spCas9 consistently show superior effect size and positional balance between the sgRNAs as a robust combinatorial approach to profile genetic interactions of multiple genes."
+  project_page: "https://www.nature.com/articles/s41467-022-30196-9"
+  github: sellerslab/CombiMiniLib
+  pdf: https://www.nature.com/articles/s41467-022-30196-9.pdf
+  image: rli.png
+  image_mouseover: rli.png
 
 - id: fignerf
-  title: "FiG-NeRF: Figure Ground Neural Radiance Fields for 3D Object Category Modelling "
-  venue: 3DV, 2021
-  description: "Given a lot of images of an object category, you can train a NeRF to render them from novel views and interpolate between different instances."
-  project_page: "https://fig-nerf.github.io"
-  arxiv: 2104.08418
-  image: fignerf_before.jpg
-  image_mouseover: fignerf_after.mp4
-  authors:
-    - chrisxie
-    - keunhong
-    - rmbrualla
-    - mtbr
-
-- id: nerfies
-  title: "Nerfies: Deformable Neural Radiance Fields"
-  venue: ICCV, 2021
-  description: "Learning deformation fields with a NeRF let's you reconstruct non-rigid scenes with high fidelity."
-  project_page: "https://nerfies.github.io"
-  github: google/nerfies
-  arxiv: 2011.12948
-  image: nerfies_before.jpg
-  image_mouseover: nerfies_after.mp4
-  authors:
-    - keunhong
-    - utsinh
-    - barron
-    - sofien
-    - dgo
-    - smseitz
-    - rmbrualla
-  awards:
-    - "Oral Presentation"
-
-- id: latentfusion
-  title: "LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation "
-  venue: CVPR, 2020
-  description: "By learning to predict geometry from images, you can do zero-shot pose estimation with a single network."
-  project_page: "https://latentfusion.github.io"
-  github: NVlabs/latentfusion
-  arxiv: 1912.00416
-  image: latentfusion_before.jpg
-  image_mouseover: latentfusion_after.mp4
-  authors:
-    - keunhong
-    - amousavian
-    - yux
-    - fox
-
-- id: photoshape
-  title: "PhotoShape: Photorealistic Materials for Large-Scale Shape Collections"
-  venue: SIGGRAPH Asia, 2018
-  description: "By pairing large collections of images, 3D models, and materials, you can create thousands of photorealistic 3D models fully automatically."
-  project_page: "https://photoshape.github.io"
-  github: keunhong/photoshape
-  arxiv: 1809.09761
-  image: photoshape.jpg
-  authors:
-    - keunhong
-    - krematas
-    - ali
-    - smseitz
-  awards:
-    - "Journal Cover"
+  title: "Molecular basis for substrate recruitment to the PRMT5 methylosome"
+  venue: Molecular Cell, 2021
+  description: "Genetic disruption of the PRMT5-substrate adaptor interface impairs growth of MTAP-null tumor cells and is thus a site for development of therapeutic inhibitors of PRMT5."
+  project_page: "https://www.sciencedirect.com/science/article/pii/S1097276521005888?ref=pdf_download&fr=RR-2&rr=947806f03a78f807"
+  pdf: https://pdf.sciencedirectassets.com/272198/1-s2.0-S1097276520X00189/1-s2.0-S1097276521005888/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIBqGOrbzX7dNzTwD4WzRBaH2tAoDHNBIjs3o3JkNJBZDAiA8Ryo7l3fjrZT0SlR0ehO9%2FsjszVw9zmk9qZbtyGURXCq8BQiS%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIMFh2bu7AJpbpohIeaKpAF0%2F%2BokOMszYFy42SGh8VgdgeSuLp%2BXVttZ3FBOvWMoDu5ToTJ9O%2FSlRafueAA1YjhJf82mxD5YMzBOdEx5alPp0f0hgI0O%2FjCYEXRuHLKtpG%2FMEzQ6wHI1cGvt181AtFD5UDwF7BHm7S0EdZEROlQ0IT%2FRck0KBI8zPUofaNXICUnzrfRDxj%2BQxU2Ixe2bHx1FZpRfvDX%2F1w9bUuRhlCevKz2BMsOpgfzDQcaUHR9%2FRIh35AA%2Fw1VAaqOBsJmYatIG%2Fb6ePassKQMUh5lShIoZZVLRq1d4URiqC8N5gszOO6NpTWKIInbgFDQfYGHXi1Nndnfj8Ar4l8SKDS1Lc5bwyKluPv7g1mubJS3c4WPHTnWuWOWq3VrNSW66WST2%2FAXgyfRFIKMu7HgGL9DA4ycrPX0RcBGlMlkIB%2FHDAnS42yjYPGBITfNhyICzdhtqw3OHt4HOZ17DjVZ98WerEQ9yV1d5pc3YMBxwSvKoVCMHrP0I%2BZD7UT%2Fy3WE%2Bev2baopbf8oSqnNLv3R%2B3RCRBLhGJwUAqQpPeILPfPs3iG%2FrdciU3q%2F8nxpFPEKtLzbrM1woLxHyjoUhWiJRPTRjlFdslvEqRfscJnnpeV3%2BEnUNNfIhA0Ak9hvX4c1Rj0IlzhV224tYTlYnT4vmOX1RtJVSSQv09QvTvNjrnaYVGVp96Dbkl67Y0yi4LYSgRFKqA8pSS7yemyKk8WsiYHPW4MZGEOcFYF5GcE3s%2BVieCiGtogwS101cmC0lr48zh3%2FYRBMhDOnFbL0uBhUQhrBkuG2CNPaHUx%2Bl3S4L3EdpOloev9U8PSm%2FbHq71zLpNjsTzsUm%2FAfjABdTT9fH%2BQEGDWYwdUR%2BfJKNUZAsfkAT%2BYTOyUws57iwQY6sgHBMNoArKULP1LziTufWf3HJMUXKCCSlM0aqmyNP96QjiklSFoqwKGjj80YnnlMJ1P2ggSPZq6PhZo6QpZ4wWAGGK7M0rfYzKhvPzTCwC314t5HVdvMameNgQw17omH8aq5NYWE96%2F65oiYSfFMafwPaFrFeYiW07pVal%2BS1elSzhtWzqll64bnM3wVaZA85JnNdVmG2XeIWiWoxpCAysP7Kih9wFAVpiH4HBvIfick2RsT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250529T182414Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5WK2DMLG%2F20250529%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f3db9c001ad1ca5dc2db5921f018bd15b7f2d62cf7c4b65b648d72255383250c&hash=f66ab3cd59691140081f3d64cdc435b962bce1b1ff61cfa261ef4b7367198944&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1097276521005888&tid=spdf-6318ac04-2627-40c9-a86f-10bf527364e6&sid=191c9f962711a94bbe4b8219e0a9a0250096gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e035c5b545f5f59560d53&rr=9478070b6b331611&cc=de
+  image: prmt5.jpg
+  image_mouseover: prmt5.jpg
