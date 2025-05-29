@@ -1,200 +1,240 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-  /* Design Credits: Deepak Pathak and Jon Barron and Abhishek Kar and Saurabh Gupta*/
-  a {
-  color: #1772d0;
-  text-decoration:none;
-  }
-  a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-  }
-  body,td,th {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400
-  }
-  heading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 19px;
-    font-weight: 1000
-  }
-  strong {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 800
-  }
-  strongred {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    color: 'red' ;
-    font-size: 16px
-  }
-  sectionheading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: 600
-  }
-  </style>
-  <!-- <link rel="shortcut icon" type="image/x-icon" href="https://de.m.wikipedia.org/wiki/Datei:Deutsches_Krebsforschungszentrum_Logo.svg"> -->
-  <link rel="mask-icon" href="https://de.m.wikipedia.org/wiki/Datei:Deutsches_Krebsforschungszentrum_Logo.svg" color="#ffffff">
-  <script type="text/javascript" src="js/hidebib.js"></script>
-  <title>Devishi Kesar</title>
-  <meta name="Devishi's Homepage" http-equiv="Content-Type" content="Devishi's Homepage">
-  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-71EPWN9RB6"></script>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ site.name }}</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
-    gtag('config', 'G-71EPWN9RB6');
+    gtag('config', '{{ site.google_analytics }}');
   </script>
-  <!-- Scramble Script by Jeff Donahue -->
-  <script src="js/scramble.js"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/index.js' | relative_url }}"></script>
 </head>
 
 <body>
-<table width="840" border="0" align="center" border="0" cellspacing="0" cellpadding="20">
-  <tr><td>
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-  <p align="center"><font size="7">Devishi Kesar</font><br>
-    <b>Email</b>:
-    <font id="email" style="display:inline;">
-      <noscript><i>Please enable Javascript to view</i></noscript>
-    </font>
-    <script>
-    emailScramble = new scrambledString(document.getElementById('email'),
-        'emailScramble', 'c02amg@amekdsl.oir',
-        [15,7,6,4,10,9,8,11,17,2,1,0,3,13,14,16,12,5]);
-    </script>
-  </p>
+  <section class="hero">
+    <div class="hero-body container is-max-desktop">
+      <div class="columns">
 
-       <style>
-           .icon-img {
-               height: 30px; /* Adjust this value to match the desired size in Safari */
-               opacity: 0.7; /* This makes all icons slightly transparent, adjust as needed */
-               margin-right: -5px; 
-           }
-           /* If you want a specific icon to have different opacity, you can override it like this: */
-           .cv-icon {
-               opacity: 1; /* This will make the CV icon fully opaque */
-           }
-       </style>
+        <div class="column is-4">
+          <figure class="image portrait">
+            <img src="{{ '/images/portrait.jpg' | relative_url }}" />
+          </figure>
+        </div>
 
-       <p align="center">
-           <a href="https://github.com/devishi/devishi.github.io/blob/main/Resume.pdf">
-               <img src="images/cv.png" class="icon-img cv-icon">
-           </a> &nbsp;
-           <a href="https://www.linkedin.com/in/dkesar">
-               <img src="images/linkedin.jpg" class="icon-img">
-           </a> &nbsp;
-           <a href="https://scholar.google.com/citations?user=uQcsRoAAAAAJ&hl=en&oi=ao#">
-               <img src="images/scholar.png" class="icon-img">
-           </a> &nbsp;
-           <a href="https://github.com/devishi/">
-               <img src="images/github.png" class="icon-img">
-           </a> 
-       </p>
+        <div class="column">
+          <h1 class="title">
+            <b>Hello, I'm {{ site.name }}</b>
+          </h1>
+          <div class="content has-text-justified">
+            {{ site.description | markdownify }}
+            <div class="buttons">
+              <a class="external-link button is-light" href="cv.html">
+                <span class="icon"><i class="fas fa-file"></i></span>
+                <span>CV</span>
+              </a>
 
-  <tr>
-    <td width="67%" valign="middle" align="justify">
-    <p>I am a second-year graduate student in the division of <a href="https://www.dkfz.de/en/pediatric-glioma-research">Pediatric Glioma Research</a>. 
-      I am interested in building models to predict tumorigenesis mechanisms. 
-      I completed my Master's in Bioinformatics at <a href="https://www.gatech.edu/">Georgia Tech</a>, 
-      working on identifying relationships between human genetic ancestry and health in the Colombian population in the lab of 
-      <a href="https://jordan.biosci.gatech.edu/">King Jordan</a>.
-    
-    <p>Previously, I have worked at <a href="https://sellerslab.org/">Sellers lab</a> in <a href="https://www.broadinstitute.org/">Broad Institute</a> on identify genetic interactions from combinatorial CRISPR screens as well as a multitude of other projects.
-      I received my Bachelors in Computer Science and Engineering from <a href="https://www.iiitd.ac.in/">IIIT Delhi</a>. 
+              <a class="external-link button is-light"
+                href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+                <span class="icon"><i class="ai ai-google-scholar"></i></span>
+                <span>Scholar</span>
+              </a>
 
-    </td>
+              <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Github</span>
+              </a>
 
-    <td width="33%"><img src="images/passport-new.jpg" width="90%"></td>
-  </tr>
-</table>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tr>
-    <td align="justify">
-    <sectionheading>Updates</sectionheading>
-     <p><font color="646464">25 April 2025</font>: Poster presentation at AACR and Biology of genomes conferences this spring to present my project on <a href="https://aacrjournals.org/cancerres/article/85/8_Supplement_1/1102/754923">deciphering pediatric glioma
-      subtypes and (epi)genomic insights into cell of origin</a></p>
-     <p><font color="646464"> 16 September 2024</font>: Gave a talk at the <a href="https://www.thebraintumourcharity.org/brain-tumour-diagnosis-treatment/child-brain-tumour-research/everest-centre/">EVEREST symposium</a> about latest insights into identification of super-enhancer based epigenetic regulation in pediatric gliomas</a></p>
-     <p><font color="646464">1 October 2023</font>: I started my PhD! Moved to Heidelberg, Germany this autumn.</p>
-  </td>
-  </tr>
-</table>
+              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
+                <span class="icon"><i class="fab fa-twitter"></i></span>
+                <span>Twitter</span>
+              </a>
+            </div>
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tr>
-        <td width="50%">
-        <p align="left">
-        </p>
-        </td>
-        
-        <td width="50%" valign="middle"><p align="right"><font size="2">
-    Template: <a href="https://suragnair.github.io/">all</a> <a href="http://www.cs.berkeley.edu/~barron/">these</a> <a href="http://jeffdonahue.com/">people</a>
-    </font></p></td>
-    </tr>
-</table>
-
-  </td></tr>
-  <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
-    <td style="padding:16px;width:20%;vertical-align:middle">
-      <div class="one">
-        <div class="two" id='r2r_image'><video  width=100% muted autoplay loop>
-        <source src="images/r2r.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video></div>
-        <img src='images/r2r.jpg' width=100%>
+          </div>
+        </div>
       </div>
-      <script type="text/javascript">
-        function r2r_start() {
-          document.getElementById('r2r_image').style.opacity = "1";
-        }
+    </div>
+  </section>
 
-        function r2r_stop() {
-          document.getElementById('r2r_image').style.opacity = "0";
-        }
-        r2r_stop()
-      </script>
-    </td>
-    <td style="padding:8px;width:80%;vertical-align:middle">
-      <a href="https://relight-to-reconstruct.github.io/">
-        <span class="papertitle">Generative Multiview Relighting for
-3D Reconstruction under Extreme Illumination Variation</span>
-      </a>
-      <br>
-      <a href="https://hadizayer.github.io/">Hadi Alzayer</a>,
-      <a href="https://henzler.github.io/">Philipp Henzler</a>,
-      <strong>Jonathan T. Barron</strong>, 
-      <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>,
-      <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>, 
-      <a href="https://dorverbin.github.io/">Dor Verbin</a>
-      <br>
-      <em>CVPR</em>, 2025 &nbsp <font color=#FF8080><strong>(Highlight)</strong></font>
-      <br>
-      <a href="https://relight-to-reconstruct.github.io/">project page</a>
-      /
-      <a href="https://arxiv.org/abs/2412.15211">arXiv</a>
-      <p></p>
-      <p>
-      Images taken under extreme illumination variation can be made consistent with diffusion, and this enables high-quality 3D reconstruction.
-      </p>
-    </td>
-  </tr>
-</table>
-<script xml:space="preserve" language="JavaScript">
-hideallbibs();
-</script>
-<!-- ><script xml:space="preserve" language="JavaScript">
-hideblock('jpm15_abs');
-</script> -->
+  <!-- News. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">Highlights</h2>
+      <div class="columns is-multiline">
+        {% for highlight in site.data.highlights %}
+        <div class="column is-4">
+          <div class="card highlight-card">
+            <div class="card-image">
+              <figure class="image">
+                {% if highlight.video %}
+                <video autoplay loop muted playsinline class="highlight-media">
+                  <source src="./images/{{ highlight.video }}" type="video/mp4">
+                  <img src="./images/{{ highlight.image }}" alt="{{ highlight.title }}">
+                </video>
+                {% else %}
+                <img src="./images/{{ highlight.image }}" alt="{{ highlight.title }}">
+                {% endif %}
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5 highlight-title">
+                    <a href="{{ highlight.url }}" target="_blank" rel="noopener">{{ highlight.title }}</a>
+                  </p>
+                </div>
+              </div>
+              <div class="content highlight-description">
+                {{ highlight.description }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider between Highlights and Publications -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Publications</h2>
+
+      {% for publication in site.data.publications %}
+      <div class="publication-block columns">
+
+        <div class="column is-2">
+          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
+            {% if publication.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title"><a href="{{ publication.project_page }}">{{ publication.title }}</a></h3>
+            <div class="publication-authors">
+              {% for author_id in publication.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
+                  }}</a>{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>
+            <div class="publication-venue">
+              <span>{{ publication.venue }}</span>
+              {% for award in publication.awards %}
+              <span class="publication-venue-emph">{{ award }}<span>
+                  {% endfor %}
+            </div>
+            <p class="publication-description">{{ publication.description }}</p>
+            <!-- Publication Links. -->
+            <div class="publication-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-ghost"
+                href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% if publication.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ Publication Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </div>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>
