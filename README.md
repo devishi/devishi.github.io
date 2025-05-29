@@ -1,11 +1,11 @@
 # [Devishi Kesar](https://devishi.github.io/)
 
-![Screenshot](examples/profile-photo.jpg)
+![Screenshot](images/passport-new.jpg)
 
 ## Contents
 - [About Me](#about)
 - [Research](#research)
-- [CV](https://devishi.github.io/assets/resume/Resume.pdf) 
+- [CV](https://devishi.github.io/Resume.pdf) 
 - [Contact](#contact)
 
 ## About Me
@@ -16,10 +16,6 @@ My current research focuses on understanding pediatric gliomas, a type of brain 
 
 Outside of work, I enjoy reading, exploring new cities, listening to music, and playing basketball.
 
-
-## Research
-
-
 ## Contact
 
-The best way to reach me via email is devishi[dot]kesar[at]kitz-heidelberg.de
+The best way to reach me via email is dkesar20[at]gmail[dot]com
