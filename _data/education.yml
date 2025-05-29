@@ -1,11 +1,16 @@
-- name: University of Washington 
+- name: University of Heidelberg
   description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+    Ph. D in Biosciences, advised by <a href="https://www.dkfz.de/en/pediatric-glioma-research">Dr. David T.W. Jones</a> and
+    <a href="https://www.kitz-heidelberg.de/en/research/research-groups/cns-/-brain-tumors/group-translational-genomics">Dr. RJ Autry</a>.<br />
+  dates: Fall 2023 - Present
 
-- name: University of Illinois at Urbana-Champaign
+- name: Georgia Institute of Technology
   description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+    M.S. in Bioinformatics, advised by <a href="https://jordan.biosci.gatech.edu/">Dr. King Jordan</a>.
+  dates: Fall 2019 - Spring 2020
+  
+- name: IIIT-Delhi
+  description: >-
+    B.Tech. in Computer Science and Engineering, advised by <a href="https://webs.iiitd.edu.in/raghava/">Dr. GPS Raghava</a>.
+  dates: Fall 2015 - Spring 2019
+
