@@ -1,12 +1,6 @@
 # [Devishi Kesar](https://devishi.github.io/)
 
-![Screenshot](images/passport-new.jpg)
-
-## Contents
-- [About Me](#about)
-- [Research](#research)
-- [CV](https://devishi.github.io/Resume.pdf) 
-- [Contact](#contact)
+![Screenshot](images/portrait.jpg)
 
 ## About Me
 
