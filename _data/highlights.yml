@@ -10,3 +10,13 @@
     - "Pediatric Glioma"
     - "Machine learning"
 
+- id: splicing-labs-dec2025
+  title: "CRISPR–Drug Combinatorial Screening Identifies Effective Combination Treatments for MTAP-Deleted Cancer."
+  date: "September 2025"
+  description: "Identified therapeutic combinations with MTAC-PRMT5is that may offer significant benefits to patients."
+  url: "https://aacrjournals.org/cancerres/article/85/18/3518/764451/CRISPR-Drug-Combinatorial-Screening-Identifies"
+  image: "Picture2.png"
+  tags:
+    - "Biomarkers"
+    - "MTAP null"
+    - "Synthetic lethality"
